@@ -1,0 +1,44 @@
+#  
+# OS
+# 
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+*.mobileprovision
+*.p12
+
+#
+# iOS
+#
+bin-debug
+certificates
+*.swp
+*.apk
+*.ipa
+
+#
+# flex
+#
+.actionScriptProperties
+.flexProperties
+.project
+.settings
+bin-debug
+
+
+#
+# Xcoe
+#
+.DS_Store
+*.swp
+*~.nib
+
+
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+xcuserdata

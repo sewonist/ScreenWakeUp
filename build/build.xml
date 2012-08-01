@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Air Native Extension Build Scripts" default="package">
+	
+	<property name="name" value="ScreenWakeUp"/>
+	<property name="sdk.home" value="/Applications/Adobe Flash Builder 4.6/sdks/4.6.0_AIR3.3"/>
+	<property name="bin.ext" value=""/>
+
+	<target name="package" description="Create the extension package">
+		<exec executable="${sdk.home}/bin/adt${bin.ext}" failonerror="true" dir="./">
+			<arg value="-package"/>
+			<arg value="-target"/>
+			<arg value="ane"/>
+			<arg value="${name}.ane"/>
+			<arg value="./extension.xml"/>
+			<arg line="-swc ${name}.swc"/>
+			<arg line="-platform iPhone-ARM library.swf libScreenWakeUp.a"/>
+			<arg line="-platform Android-ARM library.swf ScreenWakeUp.jar"/>
+		</exec>
+	</target>
+
+</project>

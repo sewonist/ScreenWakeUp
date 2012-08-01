@@ -1,0 +1,19 @@
+<extension xmlns="http://ns.adobe.com/air/extension/3.1">
+    <id>it.ane.ScreenWakeUp</id>
+    <versionNumber>1.1</versionNumber>
+    <platforms>
+        <platform name="iPhone-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libScreenWakeUp.a</nativeLibrary>
+                <initializer>ExtInitializer</initializer>
+                <finalizer>ExtFinalizer</finalizer>
+            </applicationDeployment>
+   	    </platform>
+        <platform name="Android-ARM">
+            <applicationDeployment>
+                <nativeLibrary>ScreenWakeUp.jar</nativeLibrary>
+                <initializer>it.ane.screenwakeup.ScreenWakeUpExtension</initializer>
+            </applicationDeployment>
+        </platform>
+    </platforms>
+</extension>

@@ -1,0 +1,82 @@
+TScreenWakeUp
+v5
+r1
+cCheck dependencies
+cProcessPCH /var/folders/qg/syb2zld53x1c_8w673hp8vrm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ScreenWakeUp-Prefix-cqfecrbhqgmyylertvkvdholhfui/ScreenWakeUp-Prefix.pch.pth ScreenWakeUp/ScreenWakeUp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ../build/ScreenWakeUp.build/Debug-iphoneos/ScreenWakeUp.build/Objects-normal/armv7/ScreenWakeUp.o /Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/ScreenWakeUp/ScreenWakeUp.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/../build/Debug-iphoneos/libScreenWakeUp.a normal armv7
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F453DF20000000000000110
+t1329937906
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004FEC1400000000000052C940
+t1340871680
+s5425472
+
+N/Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/../build/Debug-iphoneos/libScreenWakeUp.a
+t2
+s0
+
+N/Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/../build/ScreenWakeUp.build/Debug-iphoneos/ScreenWakeUp.build/Objects-normal/armv7/ScreenWakeUp.LinkFileList
+c00000000501873C900000000000000AA
+t1343779785
+s170
+
+N/Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/../build/ScreenWakeUp.build/Debug-iphoneos/ScreenWakeUp.build/Objects-normal/armv7/ScreenWakeUp.o
+t2
+s0
+
+N/Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/ScreenWakeUp/ScreenWakeUp-Prefix.pch
+c000000005017EF4E00000000000000A5
+t1343745870
+s165
+
+N/Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/ScreenWakeUp/ScreenWakeUp.m
+c000000005017EFF80000000000000A33
+t1343746040
+s2611
+
+N/var/folders/qg/syb2zld53x1c_8w673hp8vrm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ScreenWakeUp-Prefix-cqfecrbhqgmyylertvkvdholhfui/ScreenWakeUp-Prefix.pch.pth
+t1343779773
+s2396844
+
+CBuild AST from /Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/ScreenWakeUp/ScreenWakeUp.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesba837c49abc8b541^ac528649abc8b541^---0#1#0#--18"Check dependencies36"23233E09-F667-4D1B-AD95-840A4679EA2C-
+
+CCompileC ../build/ScreenWakeUp.build/Debug-iphoneos/ScreenWakeUp.build/Objects-normal/armv7/ScreenWakeUp.o /Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/ScreenWakeUp/ScreenWakeUp.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365472585.533440
+e365472585.704915
+r1
+xCompileC
+x../build/ScreenWakeUp.build/Debug-iphoneos/ScreenWakeUp.build/Objects-normal/armv7/ScreenWakeUp.o
+x/Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/ScreenWakeUp/ScreenWakeUp.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/ScreenWakeUp/ScreenWakeUp.mbbb98849abc8b541^22aab449abc8b541^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/ScreenWakeUp/ScreenWakeUp.m0000000000000000^3635"CompileC ../build/ScreenWakeUp.build/Debug-iphoneos/ScreenWakeUp.build/Objects-normal/armv7/ScreenWakeUp.o ScreenWakeUp/ScreenWakeUp.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/../build/ScreenWakeUp.build/Debug-iphoneos/ScreenWakeUp.build/ScreenWakeUp-generated-files.hmap -I/Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/../build/ScreenWakeUp.build/Debug-iphoneos/ScreenWakeUp.build/ScreenWakeUp-own-target-headers.hmap -I/Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/../build/ScreenWakeUp.build/Debug-iphoneos/ScreenWakeUp.build/ScreenWakeUp-all-target-headers.hmap -iquote /Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/../build/ScreenWakeUp.build/Debug-iphoneos/ScreenWakeUp.build/ScreenWakeUp-project-headers.hmap -I/Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/../build/Debug-iphoneos/include -I/Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/../build/ScreenWakeUp.build/Debug-iphoneos/ScreenWakeUp.build/DerivedSources/armv7 -I/Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/../build/ScreenWakeUp.build/Debug-iphoneos/ScreenWakeUp.build/DerivedSources -F/Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/../build/Debug-iphoneos -include /var/folders/qg/syb2zld53x1c_8w673hp8vrm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ScreenWakeUp-Prefix-cqfecrbhqgmyylertvkvdholhfui/ScreenWakeUp-Prefix.pch -MMD -MT dependencies -MF /Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/../build/ScreenWakeUp.build/Debug-iphoneos/ScreenWakeUp.build/Objects-normal/armv7/ScreenWakeUp.d --serialize-diagnostics /Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/../build/ScreenWakeUp.build/Debug-iphoneos/ScreenWakeUp.build/Objects-normal/armv7/ScreenWakeUp.dia -c /Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/ScreenWakeUp/ScreenWakeUp.m -o /Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/../build/ScreenWakeUp.build/Debug-iphoneos/ScreenWakeUp.build/Objects-normal/armv7/ScreenWakeUp.o36"AF957ABB-E0AC-4B61-A0AF-2022855D3087-
+
+CLibtool /Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/../build/Debug-iphoneos/libScreenWakeUp.a normal armv7
+s365472585.711820
+e365472585.719753
+r1
+xLibtool
+x/Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/../build/Debug-iphoneos/libScreenWakeUp.a
+xnormal
+xarmv7
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Libtool ../build/Debug-iphoneos/libScreenWakeUp.a normal armv78254b649abc8b541^8b50b849abc8b541^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--1044"Libtool ../build/Debug-iphoneos/libScreenWakeUp.a normal armv7    cd /Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/../build/Debug-iphoneos -filelist /Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/../build/ScreenWakeUp.build/Debug-iphoneos/ScreenWakeUp.build/Objects-normal/armv7/ScreenWakeUp.LinkFileList -ObjC -framework Foundation -o /Users/sewonist/Desktop/Workspace/07.30_ScreenWakeUp/Xcode/ScreenWakeUp/../build/Debug-iphoneos/libScreenWakeUp.a36"9027C80F-D8FE-45EE-8E37-2487A8EC508C-
+
+CProcessPCH /Users/sewonist/Library/Developer/Xcode/DerivedData/ScreenWakeUp-drlfjdapyndaoudotylvuvskgjdz/Index/PrecompiledHeaders/ScreenWakeUp-Prefix-gadldfqmmveqwuaxjypdfelbcglk_ast/ScreenWakeUp-Prefix.pch.pth ScreenWakeUp/ScreenWakeUp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/qg/syb2zld53x1c_8w673hp8vrm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ScreenWakeUp-Prefix-cqfecrbhqgmyylertvkvdholhfui/ScreenWakeUp-Prefix.pch.pth ScreenWakeUp/ScreenWakeUp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+

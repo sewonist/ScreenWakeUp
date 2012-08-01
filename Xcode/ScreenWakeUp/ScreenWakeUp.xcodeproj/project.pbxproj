@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110B0D7915C826CE00DA678B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110B0D7815C826CE00DA678B /* Foundation.framework */; };
+		110B0D7F15C826CE00DA678B /* ScreenWakeUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 110B0D7E15C826CE00DA678B /* ScreenWakeUp.m */; };
+		110B0D8615C8271300DA678B /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 110B0D8515C8271300DA678B /* FlashRuntimeExtensions.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		110B0D7515C826CE00DA678B /* libScreenWakeUp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libScreenWakeUp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		110B0D7815C826CE00DA678B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		110B0D7C15C826CE00DA678B /* ScreenWakeUp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScreenWakeUp-Prefix.pch"; sourceTree = "<group>"; };
+		110B0D7D15C826CE00DA678B /* ScreenWakeUp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenWakeUp.h; sourceTree = "<group>"; };
+		110B0D7E15C826CE00DA678B /* ScreenWakeUp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenWakeUp.m; sourceTree = "<group>"; };
+		110B0D8515C8271300DA678B /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		110B0D7215C826CE00DA678B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110B0D7915C826CE00DA678B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		110B0D6A15C826CE00DA678B = {
+			isa = PBXGroup;
+			children = (
+				110B0D7A15C826CE00DA678B /* ScreenWakeUp */,
+				110B0D7715C826CE00DA678B /* Frameworks */,
+				110B0D7615C826CE00DA678B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		110B0D7615C826CE00DA678B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				110B0D7515C826CE00DA678B /* libScreenWakeUp.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		110B0D7715C826CE00DA678B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				110B0D7815C826CE00DA678B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		110B0D7A15C826CE00DA678B /* ScreenWakeUp */ = {
+			isa = PBXGroup;
+			children = (
+				110B0D8515C8271300DA678B /* FlashRuntimeExtensions.h */,
+				110B0D7D15C826CE00DA678B /* ScreenWakeUp.h */,
+				110B0D7E15C826CE00DA678B /* ScreenWakeUp.m */,
+				110B0D7B15C826CE00DA678B /* Supporting Files */,
+			);
+			path = ScreenWakeUp;
+			sourceTree = "<group>";
+		};
+		110B0D7B15C826CE00DA678B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				110B0D7C15C826CE00DA678B /* ScreenWakeUp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		110B0D7315C826CE00DA678B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110B0D8615C8271300DA678B /* FlashRuntimeExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		110B0D7415C826CE00DA678B /* ScreenWakeUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110B0D8215C826CE00DA678B /* Build configuration list for PBXNativeTarget "ScreenWakeUp" */;
+			buildPhases = (
+				110B0D7115C826CE00DA678B /* Sources */,
+				110B0D7215C826CE00DA678B /* Frameworks */,
+				110B0D7315C826CE00DA678B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenWakeUp;
+			productName = ScreenWakeUp;
+			productReference = 110B0D7515C826CE00DA678B /* libScreenWakeUp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		110B0D6C15C826CE00DA678B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = ogilvy;
+			};
+			buildConfigurationList = 110B0D6F15C826CE00DA678B /* Build configuration list for PBXProject "ScreenWakeUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 110B0D6A15C826CE00DA678B;
+			productRefGroup = 110B0D7615C826CE00DA678B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				110B0D7415C826CE00DA678B /* ScreenWakeUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		110B0D7115C826CE00DA678B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110B0D7F15C826CE00DA678B /* ScreenWakeUp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		110B0D8015C826CE00DA678B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				SYMROOT = ../build;
+			};
+			name = Debug;
+		};
+		110B0D8115C826CE00DA678B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				SYMROOT = ../build;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		110B0D8315C826CE00DA678B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ScreenWakeUp.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenWakeUp/ScreenWakeUp-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		110B0D8415C826CE00DA678B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ScreenWakeUp.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenWakeUp/ScreenWakeUp-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		110B0D6F15C826CE00DA678B /* Build configuration list for PBXProject "ScreenWakeUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110B0D8015C826CE00DA678B /* Debug */,
+				110B0D8115C826CE00DA678B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		110B0D8215C826CE00DA678B /* Build configuration list for PBXNativeTarget "ScreenWakeUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110B0D8315C826CE00DA678B /* Debug */,
+				110B0D8415C826CE00DA678B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 110B0D6C15C826CE00DA678B /* Project object */;
+}
