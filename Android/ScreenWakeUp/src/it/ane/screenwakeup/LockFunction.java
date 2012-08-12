@@ -3,6 +3,7 @@ package it.ane.screenwakeup;
 import android.app.Activity;
 import android.content.Context;
 import android.os.PowerManager;
+import android.util.Log;
 
 import com.adobe.fre.FREContext;
 import com.adobe.fre.FREFunction;
@@ -14,6 +15,7 @@ import com.adobe.fre.FREWrongThreadException;
 public class LockFunction implements FREFunction {
 
 	protected PowerManager.WakeLock mWakeLock;
+	private Boolean isLock;
 	
 	@Override
 	public FREObject call(FREContext ctx, FREObject[] args) {
@@ -22,16 +24,23 @@ public class LockFunction implements FREFunction {
 			Activity activity =  ctx.getActivity();
 			final PowerManager pm = (PowerManager) activity.getSystemService(Context.POWER_SERVICE);
 	        this.mWakeLock = pm.newWakeLock(PowerManager.SCREEN_DIM_WAKE_LOCK, "ScreenWakeUp");
+	        isLock = false;
 		}
 		
 		try {
 			Boolean flag =  args[0].getAsBool();
 			
-			if(flag){
+			Log.e("ScreenWakeUp", "flag : "+flag.toString()+", lock : "+isLock.toString());
+			
+			if(flag==true && isLock==false){
+				Log.e("ScreenWakeUp", "acquire()");
 				this.mWakeLock.acquire();
-			} else {
+			} else if (flag==false && isLock == true) {
+				Log.e("ScreenWakeUp", "release()");
 				this.mWakeLock.release();
 			}
+			
+			isLock = flag;
 		} catch (IllegalStateException e) {
 			e.printStackTrace();
 		} catch (FRETypeMismatchException e) {

@@ -2,7 +2,7 @@
 //  ScreenWakeUp.h
 //  ScreenWakeUp
 //
-//  Created by ahn sewon on 12. 7. 31..
+//  Created by sewonist on 12. 7. 31..
 //  Copyright (c) 2012 it point lab All rights reserved.
 //
 

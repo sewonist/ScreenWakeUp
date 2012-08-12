@@ -1,4 +1,3 @@
-// ADOBE CONFIDENTIAL
 //
 // Copyright 2011 Adobe Systems Incorporated All Rights Reserved.
 //
@@ -55,23 +54,15 @@ typedef struct FRENamedFunction_ {
     FREFunction    function;
 } FRENamedFunction;
 
-/**
- * Defines the signature for the initializer that is called each time
+/**p
+ * Defines the signature for the initializer that is called each timeppp
  * a new AS ExtensionContext object is created.
  *
- * @param extData The extension client data provided to the FREInitializer function as extDataToSet.
+ * @param extData The extension client data provided to the FREInitializer function as extDataToSet.p
  *
  * @param ctxType Pointer to the contextType string (UTF8) as provided to the AS createExtensionContext call.
  *
- * @param ctx The FREContext being initialized.
- *
- * @param numFunctionsToSet The number of elements in the functionsToSet array.
- *
- * @param functionsToSet A pointer to an array of FRENamedFunction elements.
- */
-
-typedef void (*FREContextInitializer)(
-        void*                    extData          ,
+ * @param ctx The FREContext bei00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\\\\void*                    extData          ,
         const uint8_t*           ctxType          ,
         FREContext               ctx              ,
         uint32_t*                numFunctionsToSet,

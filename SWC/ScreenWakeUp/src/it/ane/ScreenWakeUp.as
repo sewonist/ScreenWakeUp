@@ -22,7 +22,6 @@ package it.ane
 			}catch(e:Error){
 				trace(e.message, e.errorID);
 			}
-			
 		}
 		
 		protected function onStatusHandler(event:Event):void

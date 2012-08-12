@@ -2,7 +2,7 @@
 //  ScreenWakeUp.m
 //  ScreenWakeUp
 //
-//  Created by ahn sewon on 12. 7. 31..
+//  Created by sewonist on 12. 7. 31..
 //  Copyright (c) 2012 it point lab All rights reserved.
 //
 
@@ -36,9 +36,6 @@ FREObject lock(FREContext ctx, void* funcData, uint32_t argc, FREObject argv[] )
     return nil;
 }
 
-// ContextInitializer()
-//
-// The context initializer is called when the runtime creates the extension context instance.
 void ContextInitializer(void* extData, const uint8_t * ctxType, FREContext ctx, 
                         uint32_t* numFunctionsToTest, const FRENamedFunction** functionsToSet) 
 {
@@ -59,22 +56,10 @@ void ContextInitializer(void* extData, const uint8_t * ctxType, FREContext ctx,
     *functionsToSet = func;
 }
 
-
-// ContextFinalizer()
-//
-// The context finalizer is called when the extension's ActionScript code
-// calls the ExtensionContext instance's dispose() method.
-// If the AIR runtime garbage collector disposes of the ExtensionContext instance, the runtime also calls
-// ContextFinalizer().
-
 void ContextFinalizer(FREContext ctx) {
 	return;
 }
 
-// NativeDialogExtInitializer()
-//
-// The extension initializer is called the first time the ActionScript side of the extension
-// calls ExtensionContext.createExtensionContext() for any context.
 void ExtInitializer(void** extDataToSet, FREContextInitializer* ctxInitializerToSet, 
                     FREContextFinalizer* ctxFinalizerToSet) {
     *extDataToSet = NULL;
@@ -82,9 +67,6 @@ void ExtInitializer(void** extDataToSet, FREContextInitializer* ctxInitializerTo
     *ctxFinalizerToSet = &ContextFinalizer;
 }
 
-// NativeDialogExtFinalizer()
-//
-// The extension finalizer is called when the runtime unloads the extension. However, it is not always called.
 void ExtFinalizer(void* extData) {
     return;
 }
